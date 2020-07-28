@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+body {
+  font-size: 14px;
+  margin: 0;
+  background-color: #DFE0DC;
+}
+
+div.container-fluid { padding: 0; }
+
+/** Login **/
+
+.brand {
+  padding: 12px;
+}
+.brand h1 {
+  font-size: 1.9rem;
+  margin: 1rem;
+  color: #434A54;
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+  padding: 0.86rem;
+}
+
+.section-background {
+  width: 100%;
+  height: 873px;
+  padding-top: 2rem;
+}
+
+.section-background main section h3 {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-family: 'Mukta', sans-serif;
+}
+
+.section-background main section h5 {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.section-background main form {
+  margin-top: 5.8rem;
+}
+
+button[type="submit"] a:hover {
+  color: #fff;
+  text-decoration: none;;
+}
+
+/*** NAV ***/
+header > div {
+  padding: 0!important;
+}
+
+nav {
+  background-color: #323139;
+  width: 15.904rem;
+  height: 100vh;
+  margin-left: -1.21rem;
+}
+
+nav picture {
+  display: block;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+nav picture img {
+  width: 8.15rem;
+  margin: 0 auto;
+}
+
+nav h4 {
+  cursor: none;
+  margin-top: 0.86rem;
+  font-size: 1.15rem;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  padding-bottom: 0.58rem;
+  border-bottom: 1px solid #2A292F;
+}
+
+ul#links {
+  width: 100%;
+  display: block;
+  padding-left: 0px;
+}
+
+ul#links li {
+  list-style-type: none;
+  font-size: 1.18rem;
+  padding: 0.86rem 0.86rem 0.86rem 2.86rem;
+  cursor: pointer;
+  color: #535258;
+  font-family: 'Work Sans', sans-serif;
+}
+ul#links a {
+  text-decoration: none;
+}
+
+ul#links li:hover {
+  background-color: #2A292F;
+  color: #fff;
+}
+
+nav > button[type="button"] {
+  border-top: 1px solid #323139;
+  border-bottom: 1px solid #323139;
+  background-color: #2A292F;
+  bottom: 0;
+  width: 15.90rem;
+  position: absolute;
+  height: 3.93rem;
+}
+
+nav > button:hover, .col-md-12 > button[type="button"] a:hover {
+  color: #fff;
+}
+
+nav > button > a:hover, .col-md-12 > button[type="button"] a:hover {
+  text-decoration: none;
+}
+
+.fa-power-off {
+  color: #ccc;
+}
+
+/*** MAIN ***/
+main {
+  width: 100%;
+  box-sizing: border-box;
+  margin-left: -0.43rem;
+  margin-top: -1.72rem;
+  font-family: 'Zilla Slab', serif;
+}
+
+main div h2 {
+  font-size: 3.43rem;
+}
+
+.breadcrumb {
+  background-color: transparent;
+  font-size: 1.72rem;
+}
+
+.TitleSection, table, .btn-add, .formUsers {
+  margin-left: 3.15rem;
+}
+
+form {
+  padding: 0!important;
+}
+
+/*** FOOTER ***/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: calc(100% + 1.08rem);
+  height: 4.30rem;
+  line-height: 4.30rem;
+  /* background-color: #4a4e4d ; */
+  /* background-color: #323139; */
+  background-color: #2A292F;
+}
+
+.container {
+  width: 100%;
+
+}
+
+.container p {
+  text-align: center;
+  margin-bottom: -1.43rem;
+}
